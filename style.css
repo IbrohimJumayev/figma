@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+p,a{
+    font-family: "Inter", sans-serif;
+}
+.phone-number p{
+    color: #fff;
+    font-size: 1.8rem;
+}
+.phone-number{
+    gap: 15px;
+    display: flex;
+    align-items: centerd;
+    padding-block: 25px;
+    padding-left: 95px;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #454444;
+}
+.some-info{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+
+}
+.some-info p{
+    font-size: 1.8rem;
+    color: #FFFFFF;
+}
+.some-info a{
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+   
+}
+.extra-info{
+    padding-right: 95px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.extra-1, .extra-2{
+    display: flex;
+    
+}
+.extra-info p{
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    margin-left: 6px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 95px;
+    align-items: center;
+    margin-top: 41px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.log{
+    gap: 20px;
+}
+.login{
+    display: flex;
+    align-items: center;
+}
+.log, .log1, .log2, .search, .categories{
+    display: flex;
+    align-items: center;
+}
+nav .nav-bar p{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #454444;
+}
+.login{
+    gap: 20px;
+}
+.login .log1, .log2{
+    gap: 6px;
+}
+input{
+    outline: none;
+    border: none;
+    background-color: #D9D9D9;
+}
+.search{
+   border-radius: 15px;
+   padding: 9px 11px;
+   background-color: #D9D9D9;
+}
+.header2{
+    padding-inline: 95px;
+    margin-top: 58px;
+}
+.header2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 344px;
+}
+.header3 button{
+    border-style: none;
+    border-radius: 30px;
+    background-color: #EFEFEF;
+    border: none;
+    padding: 21px 28px 21px;
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #454444;
+    cursor: pointer;
+
+}
+.header3{
+    display: flex;
+    align-items: center;
+    padding-inline: 95px;
+    justify-content: space-between;
+    margin-top: 39px;
+}
+.filter{
+    display: flex;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+.sort button{
+    background-color: transparent;
+    border: 1px solid #D9D9D9;
+}
+h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-left: 147px;
+    margin-top: 63px;
+}
+.card-carousel{
+    padding-inline: 80px;
+    margin-top: 39px;
+    display: flex;
+    column-gap: 26px;
+    row-gap: 63px;
+    flex-wrap: wrap;
+    /* flex: 1; */
+}
+.card-info, .card-price h3{
+    font-family: "Inter", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #000000;
+
+}
+.card{
+    flex: 1;
+    /* width: 100%; */
+}
+.card-info p{
+    color:#454444;
+    font-size: 1.6rem;
+
+}
+.product-info{
+    display: flex;
+    gap: 32px;
+    
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+    column-gap: 19px;
+}
+.card-info button{
+    border: 3px solid #454444;
+    background-color: transparent;
+    color: #454444;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 22px 36px 22px 33px;
+    cursor: pointer;
+}
+
+
+
+
+
+@media only screen and (max-width: 1035px){
+    html{
+        font-size: 9px;
+    }
+    .phone-number{
+        padding-left: 50px;
+    }
+    .extra-info{
+        padding-right: 50px;
+    }
+    nav{
+        padding-inline: 20px;
+    }
+
+}
+@media only screen and (max-width: 850px){
+    html{
+        font-size: 8px;
+    }
+    .phone-number{
+        padding-left: 50px;
+        padding-block: 10px;
+    }
+    .extra-info{
+        padding-right: 50px;
+        gap: 15px;
+    }
+     .some-info{
+        display: none;
+     }
+    nav{
+        padding-inline: 10px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .header2{
+        padding-inline: 50px;
+    }
+    .header3{
+        padding-inline: 50px;
+    }
+}
+@media only screen and (max-width: 450px){
+    html{
+        font-size: 7px;
+    }
+    .phone-number{
+        padding-left: 20px;
+        padding-block: 10px;
+    }
+    .extra-info{
+        padding-right: 20px;
+        gap: 10px;
+    }
+    .header2{
+        padding-inline: 20px;
+    }
+    .header3{
+        padding-inline: 20px;
+    }
+}
+@media only screen and (max-width: 550px){
+    .search{
+        display: none;
+    }
+    nav{
+        margin-top: 20px;
+    }
+}
