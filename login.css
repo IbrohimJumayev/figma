@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+p,a{
+    font-family: "Inter", sans-serif;
+}
+.phone-number p{
+    color: #fff;
+    font-size: 1.8rem;
+}
+.phone-number{
+    gap: 15px;
+    display: flex;
+    align-items: centerd;
+    padding-block: 25px;
+    padding-left: 95px;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #454444;
+}
+.some-info{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+
+}
+.some-info p{
+    font-size: 1.8rem;
+    color: #FFFFFF;
+}
+.some-info a{
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+   
+}
+.extra-info{
+    padding-right: 95px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.extra-1, .extra-2{
+    display: flex;
+    
+}
+.extra-info p{
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    margin-left: 6px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 61px;
+    gap: 16px;
+}
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 55px;
+    padding-inline: 20px;
+}
+
+input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #454444;
+    width: 100%;
+    padding-bottom: 16px; 
+}
+input:focus{
+    border-bottom: 1px solid rgb(33, 33, 254) ;
+}
+form button{
+    width:  100%;
+    padding: 17px 262px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    border-radius: 30px;
+    background-color: #454444;
+    border: none;
+    cursor: pointer;
+    padding-inline: 20px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1035px){
+    html{
+        font-size: 9px;
+    }
+    .phone-number{
+        padding-left: 50px;
+    }
+    .extra-info{
+        padding-right: 50px;
+    }
+    nav{
+        padding-inline: 20px;
+    }
+
+}
+@media only screen and (max-width: 850px){
+    html{
+        font-size: 8px;
+    }
+    .phone-number{
+        padding-left: 50px;
+        padding-block: 10px;
+    }
+    .extra-info{
+        padding-right: 50px;
+        gap: 15px;
+    }
+     .some-info{
+        display: none;
+     }
+    nav{
+        padding-inline: 10px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .header2{
+        padding-inline: 50px;
+    }
+    .header3{
+        padding-inline: 50px;
+    }
+}
+@media only screen and (max-width: 450px){
+    html{
+        font-size: 7px;
+    }
+    .phone-number{
+        padding-left: 20px;
+        padding-block: 10px;
+    }
+    .extra-info{
+        padding-right: 20px;
+        gap: 10px;
+    }
+    .header2{
+        padding-inline: 20px;
+    }
+    .header3{
+        padding-inline: 20px;
+    }
+}
+@media only screen and (max-width: 550px){
+    .search{
+        display: none;
+    }
+    nav{
+        margin-top: 20px;
+    }
+}

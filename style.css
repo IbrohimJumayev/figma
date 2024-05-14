@@ -35,6 +35,7 @@ p,a{
     font-size: 1.8rem;
     color: #FFFFFF;
 }
+
 .some-info a{
     font-size: 1.8rem;
     font-weight: 700;
@@ -192,6 +193,33 @@ h2{
     border-radius: 50px;
     padding: 22px 36px 22px 33px;
     cursor: pointer;
+}
+
+.container img{
+   width: 400px;
+   height: 500px;
+   flex: 1;
+   cursor: pointer;
+}
+.container{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+    padding-inline: 95px;
+   
+
+}
+.container p{
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+.container div{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.container strong, span{
+    font-size: 1.5rem;
 }
 
 
